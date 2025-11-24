@@ -42,6 +42,9 @@ export default function Search() {
         <h1>user name : {user?.name}</h1>
         <h2>Login : {user?.login}</h2>
         <p>location: {user?.location}</p>
+
+        <h1 className="text-4xl text-red-500 font-bold">Tailwind is working!</h1>
+
     </div>
   )
 }
