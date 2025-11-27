@@ -5,7 +5,7 @@ export default function Main() {
     
    
   return (
-    <div>
+    <div className="w-292 flex flex-col gap-8">
         <Header/>
         <Search/>
     </div>
